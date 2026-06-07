@@ -1,0 +1,31 @@
+name: Safety review
+description: Propose or review a safety-relevant design change.
+title: "[Safety] "
+labels: ["safety"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: What is changing?
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk analysis
+      description: How does this affect force, autonomy, field deployment, privacy, or misuse risk?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Responsible use checks
+      options:
+        - label: This does not add weaponized, destructive, surveillance, or coercive capability.
+          required: true
+        - label: This remains limited to peaceful recovery, cleanup, or controlled research.
+          required: true
+        - label: Required safety docs/tests will be updated.
+          required: true
+

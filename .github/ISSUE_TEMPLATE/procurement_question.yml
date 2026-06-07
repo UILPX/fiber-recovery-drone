@@ -1,0 +1,20 @@
+name: Procurement question
+description: Ask about parts, suppliers, compatibility, or purchase tradeoffs.
+title: "[Procurement] "
+labels: ["procurement"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What decision needs to be made?
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Budget, destination country, voltage, availability, or shipping constraints.
+    validations:
+      required: false
+

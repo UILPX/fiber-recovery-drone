@@ -55,3 +55,12 @@
 - 不让机器人主动接触疑似未爆弹药、带电高压线或结构不稳定建筑。
 - 不以完全自主方式进入未经排查的战后高危区域。
 
+## 许可证与使用边界
+
+本仓库是 source-available 项目，不是开源项目。代码、文档、硬件构想和采购建议默认保留全部权利，仅允许阅读、评审、讨论和提交贡献建议。制造、商业化、再发布、现场部署、军事/执法/情报/监控/武器化用途都需要项目所有者的事先书面许可。
+
+请阅读：
+
+- [LICENSE.md](LICENSE.md)
+- [RESPONSIBLE_USE.md](RESPONSIBLE_USE.md)
+- [docs/safety_and_ethics.md](docs/safety_and_ethics.md)
